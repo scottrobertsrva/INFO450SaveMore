@@ -270,7 +270,6 @@ void CertificateOfDeposit::display() {
 int main()
 {
 	BankAccount **bList;
-	CheckingAccount *chkPtr;
 	const int MAXACCOUNTS = 50;
 	int count = 0;
 	bList = new BankAccount*[MAXACCOUNTS];
